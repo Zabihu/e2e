@@ -56,7 +56,7 @@ export class Random {
             let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
             let result = '';
             if (specialCharacters == true) {
-                characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789';
+                characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 ~!@#$%^&*()_+:{}[]<>';
             }
             let stringLength = Number(this.integers(1, length)[0]);
             for (let j = 0; j < stringLength; j++) {
